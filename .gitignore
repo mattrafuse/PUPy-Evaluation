@@ -1,0 +1,8 @@
+# *.png
+
+datasets/mdc/parsed
+
+stats/cached_*
+
+plots/*.pdf
+plots/*.png

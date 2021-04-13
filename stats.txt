@@ -1,0 +1,72 @@
+key                             mean                            std                             median
+total time                      358 days, 6:17:17.760234        148 days, 21:42:31.948200       374 days, 5:01:19
+total prox time                 194 days, 1:21:24.210526        93 days, 16:00:18.927866        206 days, 10:30:00
+total safe visit time           170 days, 19:12:47.096491       91 days, 12:44:24.620305        158 days, 18:03:27
+total auths                     11881.801                       8523.370                        10025.000
+
+total class auths               4592.520                        4928.423                        4032.000
+total unclass auths             7289.281                        5974.140                        5700.000
+unclass ratio                   0.667                           0.276                           0.599
+green auths                     9440.737                        7193.061                        7787.000
+true positive auths             4131.281                        4568.079                        3739.000
+false positive auths            51.743                          151.322                         0.000
+true negative auths             11.292                          27.726                          0.000
+false negative auths            398.205                         541.465                         290.000
+safe auth precision             0.978                           0.098                           1.000
+safe auth recall                0.900                           0.076                           0.922
+safe auth fpr or fallout        0.677                           0.279                           0.758
+safe unclassified fallout       0.658                           0.121                           0.659
+safe auth tnr                   0.323                           0.279                           0.242
+unsafe auth precision           0.048                           0.121                           0.000
+unsafe auth recall              0.323                           0.279                           0.242
+unsafe auth fpr or fallout      0.100                           0.076                           0.078
+unsafe unclassified fallout     0.342                           0.121                           0.341
+unsafe auth tnr                 0.900                           0.076                           0.922
+
+familiarity total class auths           6794.228                        4510.587                        6190.000
+familiarity total unclass auths         7637.632                        6210.161                        5876.500
+familiarity unclass ratio               0.507                           0.178                           0.479
+familiarity green auths                 28.711                          106.548                         0.000
+familiarity true positive auths         20.351                          88.229                          0.000
+familiarity false positive auths        0.000                           0.000                           0.000
+familiarity true negative auths         0.000                           0.000                           0.000
+familiarity false negative auths        6773.877                        4505.885                        6187.500
+familiarity safe auth precision         1.000                           0.000                           1.000
+familiarity safe auth recall            0.003                           0.013                           0.000
+familiarity safe unclassified fallout   0.001                           0.004                           0.000
+familiarity unsafe auth precision       0.000                           0.000                           0.000
+familiarity unsafe auth fpr or fallout  0.997                           0.013                           1.000
+familiarity unsafe unclassified fallout 0.999                           0.004                           1.000
+familiarity unsafe auth tnr             0.003                           0.013                           0.000
+
+true positive auths strict              4131.281                        4568.079                        3739.000
+false positive auths strict             51.743                          151.322                         0.000
+true negative auths strict              3.737                           9.970                           0.000
+false negative auths strict             132.830                         331.155                         49.000
+safe auth precision strict              0.978                           0.098                           1.000
+safe auth recall strict                 0.964                           0.053                           0.981
+safe auth fpr or fallout strict         0.780                           0.293                           0.924
+safe unclassified fallout strict        0.798                           0.105                           0.819
+unsafe auth precision strict            0.070                           0.144                           0.000
+unsafe auth recall strict               0.220                           0.293                           0.076
+unsafe auth fpr or fallout strict       0.036                           0.053                           0.019
+unsafe unclassified fallout strict      0.202                           0.105                           0.181
+
+success ratio                   0.772                           0.092                           0.795
+total highlights                24.696                          43.585                          8.000
+auth time                       52 days, 12:21:45.263158        43 days, 20:34:41.552439        45 days, 23:30:00
+theft time                      29 days, 9:54:44.210526         25 days, 6:11:06.212055         22 days, 21:30:00
+loss time                       68 days, 14:46:50.526316        51 days, 10:21:10.218695        55 days, 22:00:00
+auth ratio                      0.152                           0.112                           0.131
+theft ratio                     0.174                           0.204                           0.135
+loss ratio                      0.384                           0.259                           0.348
+familiarity auth time           352 days, 2:34:02.105263        150 days, 8:17:20.425352        372 days, 5:30:00
+familiarity auth ratio          0.997                           0.012                           1.000
+high alpha                      27.561                          15.914                          25.000
+medium alpha                    43.497                          29.304                          36.000
+auth overlap time               9 days, 20:04:23.412281         9 days, 14:35:32.778362         6 days, 23:16:13.500000
+auth overlap ratio              0.067                           0.064                           0.046
+familiarity auth overlap time   168 days, 2:09:13.517544        90 days, 3:48:47.248944         158 days, 12:21:23
+familiarity auth overlap ratio  0.986                           0.042                           0.999
+
+Best fit endpoints              70.60% -> 81.33%
