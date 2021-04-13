@@ -1,0 +1,3 @@
+# PUPy Evaluation
+
+This repository contains the python code used to evaluate the [PUPy](https://github.com/mattrafuse/PUPy) system using the [Cambridge/Haggle](https://crawdad.org/cambridge/haggle/20090529/) and [MDC](https://www.idiap.ch/dataset/mdc) datasets. These datasets are not included in this repository for privacy reasons. If you would like to run this code to double check our results, you'll need to gain access to these datasets, and preprocess the data a bit (contact me for details).
