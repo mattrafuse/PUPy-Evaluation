@@ -19,7 +19,7 @@ You will also need to have `matplotlib` and `numpy` installed:
 pip install numpy matplotlib
 ```
 
-After that, simply run `python graph.py`, after uncommenting the specific methods you are interested in. The first run will take a *really* long time unless you have a very powerful computer, but the program creates caches for most steps after the first run, making subsequent runs significantly faster. As an example, original parsing of the csv files took 48 hours on a 120 core machine, but after the intermediate files are created, I can reproduce the graphs on my laptop.
+After that, simply run `python graph.py`, after uncommenting the specific methods you are interested in. When building the MDC graphs, the first run will take a *really* long time unless you have a very powerful computer, but the program creates caches for most steps after the first run, making subsequent runs significantly faster. As an example, original parsing of the csv files took 48 hours on a 120 core machine, but after the intermediate files are created, I can reproduce the graphs on my laptop.
 
 ## Publications
 
