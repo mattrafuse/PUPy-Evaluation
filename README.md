@@ -23,4 +23,4 @@ After that, simply run `python graph.py`, after uncommenting the specific method
 
 ## Publications
 
-I'll link my thesis here once it's available! for now, you can contact UWaterloo's [Math Grad Office](mailto:mgo@uwaterloo.ca) for a copy.
+I'll link my thesis here once it's available! For now, you can contact UWaterloo's [Math Grad Office](mailto:mgo@uwaterloo.ca) for a copy.
