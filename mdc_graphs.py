@@ -6,9 +6,7 @@ import math
 import matplotlib.pyplot as plt
 from multiprocessing import Pool
 import numpy as np
-from datetime import datetime
 from constants import *
-from sklearn.metrics import precision_score, recall_score
 
 from actions import enumerate_actions
 from util_fns import Ticker, get_file_size
@@ -203,12 +201,12 @@ def build_visits_pkls():
 
 
 def build_accel_pkl():
-    records_2_file = 'datasets/mdc/mdcdb/records_2.csv'
+    records_file = 'datasets/mdc/mdcdb/records.csv'
     accel = parse_file('accel_activity_noko.csv', 1063725, 1)
 
     NUM_RECORDS = 1215615
-    print("\n  Processing records_2.csv data")
-    with open(records_2_file) as f:
+    print("\n  Processing records.csv data")
+    with open(records_file) as f:
         ticker = Ticker(NUM_RECORDS)
         while True:
             line = f.readline().strip()
@@ -222,14 +220,6 @@ def build_accel_pkl():
 
     with open(f'datasets/mdc/parsed/accel.pkl', 'wb') as f:
         pickle.dump(accel, f)
-
-# def build_places_pkl():
-#     places_file, places_length = 'datasets/mdc/mdcdb/places.csv', 493
-#     visits_10min_file = 'datasets/mdc/mdcdb/visits_10min.csv'
-#     visits_20min_file = 'datasets/mdc/mdcdb/visits_20min.csv'
-
-#     places = dict()
-#     with open(places_file) as f:
 
 
 def split_data(name):

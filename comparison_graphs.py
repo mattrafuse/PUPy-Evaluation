@@ -1,12 +1,9 @@
 import os
 from os import path
-import random
 import pickle
-import math
 import matplotlib.pyplot as plt
 from multiprocessing import Pool
 import numpy as np
-from datetime import datetime
 
 from actions import enumerate_actions
 from constants import BLACKLIST

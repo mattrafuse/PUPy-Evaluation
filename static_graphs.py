@@ -1,7 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.interpolate import interp1d
-import scipy.stats as ss
 
 XNEW = np.linspace(0, 10, num=501, endpoint=True)
 
